@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+
+    <title>Document</title>
+</head>
+
+<body onload="loated()">
+    <main>
+        <div class="churascometro">
+            <h1>Churrascômetro</h1>
+            <input id="adultos" type="number" placeholder="Adultos" required>
+            <input id="criancas" type="number" placeholder="Crianças" required>
+            <input id="duracao" type="number" placeholder="Duração (h)" required>
+            <button id="calcular">Calcular</button>
+            <button type="submit" id="limpar">Limpar</button>
+
+            <div id="resultado">
+                <p><span id="carne">X</span> Kg de Carne</p>
+                <p><span id="cerveja">X</span> Latas de Cerveja</p>
+                <p><span id="bebida">X</span> Garrafas de 2L de Bebidas</p>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

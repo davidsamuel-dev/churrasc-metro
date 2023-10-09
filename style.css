@@ -1,0 +1,56 @@
+.churascometro {
+    max-width: 300px;
+    height: auto;
+    background-color: rgb(214, 231, 244);
+    margin: auto;
+    /* border: 1px solid #000; */
+
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+
+    border-radius: 28px;
+    background: #e0e0e0;
+    box-shadow: 24px 24px 48px #bebebe,
+        -24px -24px 48px #ffffff;
+    margin-top: 100px;
+
+}
+
+body {
+    background: #e0e0e0;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+input, button {
+    padding: 5px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+#resultado {
+    display: none;
+}
+button{
+    width: 80px;
+}
+#calcular{
+    background-color: green;
+    color: #fff;
+    cursor: not-allowed;
+
+}
+#limpar{
+    background-color: red;
+    color: #fff;
+    display: none;
+}
