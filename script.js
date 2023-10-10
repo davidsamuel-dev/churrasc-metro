@@ -30,7 +30,7 @@ function loated() {
         var qtd_criancas = document.getElementById("criancas").value
         var duracao = document.getElementById("duracao").value
 
-        if (parseInt(qtd_adultos) > 0 & parseInt(qtd_criancas) > 0 & parseInt(duracao) > 0) {
+        if (parseInt(qtd_adultos) > 0 & parseInt(qtd_criancas) >= 0 & parseInt(duracao) > 0) {
 
             calc.style.cursor = "pointer"
 
