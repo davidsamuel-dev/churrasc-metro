@@ -47,9 +47,9 @@ function loated() {
                 refri_agua_pp = 1500
             }
 
-            carne.innerText = ((qtd_adultos * carne_pp) + (qtd_criancas * carne_pp) / 2)
-            cerveja.innerText = (qtd_adultos * cerveja_pp)
-            bebida.innerText = (qtd_adultos * refri_agua_pp + (qtd_criancas * carne_pp) / 2)
+            carne.innerText = (((qtd_adultos * carne_pp) + (qtd_criancas * carne_pp) / 2)/1000)
+            cerveja.innerText = Math.ceil((qtd_adultos * cerveja_pp)/355)
+            bebida.innerText = Math.ceil(((qtd_adultos * refri_agua_pp + (qtd_criancas * carne_pp) / 2))/2000)
         } else {
             alert("Insira os dados corretamente")
         }
