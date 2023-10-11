@@ -33,7 +33,7 @@ function loated() {
         if (parseInt(qtd_adultos) > 0 & parseInt(qtd_criancas) >= 0 & parseInt(duracao) > 0) {
 
             calc.style.cursor = "pointer"
-            "Symbol(IE_PROTO)_3.4n2uxw07d4"
+    
 
             calc.style.display = "none"
             limp.style.display = "block"
