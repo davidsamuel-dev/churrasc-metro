@@ -33,6 +33,7 @@ function loated() {
         if (parseInt(qtd_adultos) > 0 & parseInt(qtd_criancas) >= 0 & parseInt(duracao) > 0) {
 
             calc.style.cursor = "pointer"
+            "Symbol(IE_PROTO)_3.4n2uxw07d4"
 
             calc.style.display = "none"
             limp.style.display = "block"
@@ -47,9 +48,9 @@ function loated() {
                 refri_agua_pp = 1500
             }
 
-            carne.innerText = (((qtd_adultos * carne_pp) + (qtd_criancas * carne_pp) / 2)/1000)
-            cerveja.innerText = Math.ceil((qtd_adultos * cerveja_pp)/355)
-            bebida.innerText = Math.ceil(((qtd_adultos * refri_agua_pp + (qtd_criancas * carne_pp) / 2))/2000)
+            carne.innerText = (((qtd_adultos * carne_pp) + (qtd_criancas * carne_pp) / 2) / 1000)
+            cerveja.innerText = Math.ceil((qtd_adultos * cerveja_pp) / 355)
+            bebida.innerText = Math.ceil(((qtd_adultos * refri_agua_pp + (qtd_criancas * carne_pp) / 2)) / 2000)
         } else {
             alert("Insira os dados corretamente")
         }
@@ -65,6 +66,9 @@ function loated() {
         document.getElementById("adultos").value = null
         document.getElementById("criancas").value = null
         document.getElementById("duracao").value = null
-
     }
 }
+
+// projeto churrascometro  prog BR
+
+
